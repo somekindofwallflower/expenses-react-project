@@ -9,7 +9,7 @@ const ExpenseForm = (props) => {
             date: userInput.enteredDate
         }
         props.onSaveExpenseData(expenseData)
-    }
+
 
 
     const [userInput, setUserInput] = useState({
